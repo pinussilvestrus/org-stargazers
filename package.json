@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mocha": "mocha",
+    "test": "npm run lint && npm run mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinussilvestrus/org-stargazers.git"
   },
   "bin": {
     "org-stargazers": "lib/index.js"
@@ -16,5 +21,13 @@
     "@octokit/rest": "^16.21.0",
     "eslint": "^5.15.3",
     "mri": "^1.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "mocha-sinon": "^2.1.0",
+    "mock-require": "^3.0.3",
+    "sinon": "^7.3.1",
+    "sinon-chai": "^3.3.0"
   }
 }
