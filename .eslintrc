@@ -2,8 +2,13 @@
     "parserOptions": {
         "ecmaVersion": 2017
     },
-
     "env": {
         "es6": true
+    },
+    "rules": {
+        "semi": [2, "always"],
+        "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+        "padded-blocks": ["error", "always"],
+        "no-unused-vars": 0
     }
 }
