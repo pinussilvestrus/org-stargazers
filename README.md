@@ -13,9 +13,16 @@ $ npm i -g org-stargazers
 
 ## Usage
 
+To list all stars by repository for given GitHub organization
 
 ```sh
 $ org-stargazers -o 'bpmn-io'
+```
+
+To list only top 10 repositories
+
+```sh
+$ org-stargazers -t 10 -o 'bpmn-io'
 ```
 
 ## Help
