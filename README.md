@@ -2,7 +2,7 @@
 
 List stargazer counts for all repositories inside a GitHub organization.
 
-![Travis Status](https://travis-ci.org/pinussilvestrus/org-stargazers.svg?branch=master) ![Version](https://img.shields.io/npm/v/org-stargazers.svg) [![Greenkeeper badge](https://badges.greenkeeper.io/pinussilvestrus/org-stargazers.svg)](https://greenkeeper.io/)
+![Travis Status](https://travis-ci.org/pinussilvestrus/org-stargazers.svg?branch=master) ![Version](https://img.shields.io/npm/v/org-stargazers.svg) 
 
 
 ## Install
