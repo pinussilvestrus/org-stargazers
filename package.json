@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^16.28.5",
-    "eslint": "^6.0.1",
+    "eslint": "^6.2.1",
     "mri": "^1.1.4"
   },
   "devDependencies": {
