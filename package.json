@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@octokit/rest": "^16.35.0",
+    "@octokit/rest": "^17.1.1",
     "eslint": "^6.7.2",
     "mri": "^1.1.4"
   },
