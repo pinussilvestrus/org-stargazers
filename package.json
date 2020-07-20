@@ -20,7 +20,7 @@
   "dependencies": {
     "@octokit/rest": "^18.0.0",
     "eslint": "^7.4.0",
-    "mri": "^1.1.5"
+    "mri": "^1.1.6"
   },
   "devDependencies": {
     "chai": "^4.2.0",
