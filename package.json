@@ -18,16 +18,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@octokit/rest": "^18.0.0",
-    "eslint": "^7.4.0",
-    "mri": "^1.1.5"
+    "@octokit/rest": "^18.0.9",
+    "eslint": "^7.13.0",
+    "mri": "^1.1.6"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.0.1",
+    "mocha": "^8.2.1",
     "mocha-sinon": "^2.1.2",
     "mock-require": "^3.0.3",
-    "sinon": "^9.0.2",
+    "sinon": "^9.2.1",
     "sinon-chai": "^3.5.0"
   }
 }
