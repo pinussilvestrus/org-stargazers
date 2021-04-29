@@ -1,0 +1,46 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "10:00"
+    timezone: Europe/Amsterdam
+  open-pull-requests-limit: 10
+  versioning-strategy: increase
+  ignore:
+  - dependency-name: "@octokit/rest"
+    versions:
+    - 18.0.14
+    - 18.0.15
+    - 18.1.0
+    - 18.1.1
+    - 18.2.0
+    - 18.3.0
+    - 18.3.4
+    - 18.3.5
+    - 18.5.2
+  - dependency-name: sinon-chai
+    versions:
+    - 3.6.0
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+  - dependency-name: mocha
+    versions:
+    - 8.3.0
+    - 8.3.1
+    - 8.3.2
+  - dependency-name: chai
+    versions:
+    - 4.3.0
+    - 4.3.3
+    - 4.3.4
+  - dependency-name: sinon
+    versions:
+    - 9.2.4
